@@ -13,6 +13,8 @@ function atualizarTarefas() {
     localStorage.setItem('tarefas', JSON.stringify(tarefas))
 }
 
+// testando coisas aqui
+
 function criarElementoTarefa(tarefa) {
     const li = document.createElement('li')
     li.classList.add('app__section-task-list-item')
